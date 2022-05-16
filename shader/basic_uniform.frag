@@ -69,18 +69,16 @@ vec3 schlickFresnel(float lDotH, vec3 tColour, vec3 nTexColour) {
     vec3 f0 = vec3(0.04);
 
     //If it is metalic it uses the right colour to calculate it. mix could be used, but it would only iliminate the one iff and add three mix function calls.
-    if (Material.Metal) {
         if (Material.applyBrickHayTex) {
-            f0 =  tColour;
+            f0 = mix(f0, tColour, Material.Metal);
         }
         else if (Material.applyNoiseTex)
         {
-            f0 = nTexColour;
+            f0 = mix(f0, nTexColour, Material.Metal);
         }
         else {
-            f0 = Material.Colour;
+            f0 = mix(f0, Material.Colour, Material.Metal);
         }
-    }
 
     
     return f0 + (1.0 - f0) * pow(1.0 - lDotH, 5);
