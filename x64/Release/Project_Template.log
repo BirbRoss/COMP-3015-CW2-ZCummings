@@ -1,0 +1,20 @@
+﻿  glad.c
+  cube.cpp
+  glslprogram.cpp
+  glutils.cpp
+  noisetex.cpp
+  objmesh.cpp
+D:\Desktop\My CW2 Project - 3015\Project_Template\helper\objmesh.cpp(188,43): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+D:\Desktop\My CW2 Project - 3015\Project_Template\helper\objmesh.cpp(194,50): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+D:\Desktop\My CW2 Project - 3015\Project_Template\helper\objmesh.cpp(198,45): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  plane.cpp
+  stb_image.cpp
+  texture.cpp
+  trianglemesh.cpp
+  main.cpp
+  scenebasic_uniform.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1413 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Project_Template.vcxproj -> D:\Desktop\My CW2 Project - 3015\Project_Template\x64\Release\Project_Template.exe
