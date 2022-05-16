@@ -27,6 +27,15 @@ Main.cpp will just make calls to the scenebasic_uniform which will then call on 
 
 Well it's an interesting lil tech demmo scene, it suffers some issues from lack of time managment, so I appologise, one of the pigs will not be wielding a flamethrower, perhaps in a future updated if you want to see that sort of thing
 
+## Problems solved
+
+A common issue I have heard form my classmates is the inability to asign different textures to meshes, I did this by simply assigning uniform booleans so the shader would only render that pixle as the texture's colour if the appropriate uniform was true, which works just fine for this tech demo.
+
+## What I would have wanted to do if I had the time and skill
+
+Would have done shadows but would have required my to revamp my whole shader into render passes instead of passes for just each light, and having just finished PBR that was tedious
+
+
 ## How to run
 
 1. Download the zip from releases
@@ -38,12 +47,19 @@ If you wish to run bPhong, swap "shaderToggle" on scenebasic_uniform.cpp line 61
 
 ## Video
 
-[To be uploaded]
+[Youtube video](https://youtu.be/doksNtxEWw4)
 
 ## Credit
 
 The hay texture is in the public domain and can be found at https://pixy.org/61655/
 
-##New and improved fog fact
+### Additional libraries used
+
+- Glad
+- GLFW
+- Glm
+- KHR
+
+## New and improved fog fact
 
 Fog that forms at a higher altitude will form a stratus cloud.
