@@ -68,7 +68,7 @@ vec3 schlickFresnel(float lDotH, vec3 tColour, vec3 nTexColour) {
     //0.04 is the range for dielectrics/metalic materials.
     vec3 f0 = vec3(0.04);
 
-    //If it is metalic it uses the right colour to calculate it. mix could be used, but it would only iliminate the one iff and add three mix function calls.
+    //If it is metalic it uses the right colour to calculate it.
         if (Material.applyBrickHayTex) {
             f0 = mix(f0, tColour, Material.Metal);
         }
