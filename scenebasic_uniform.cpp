@@ -170,7 +170,7 @@ void SceneBasic_Uniform::render()
     setMatrices();
     cow->render();
 
-    //Barn render | 1/1/1 = white
+    //Barn render
     prog.setUniform("Material.Rough", 0.9f);
     prog.setUniform("Material.Metal", 0);
     //prog.setUniform("Material.Colour", 0.3f, 0.15f, 0.0f);
@@ -183,7 +183,7 @@ void SceneBasic_Uniform::render()
     setMatrices();
     barn->render();
 
-    //Barn render | 1/1/1 = white
+    //Trough render
     prog.setUniform("Material.Rough", 0.9f);
     prog.setUniform("Material.Metal", 1);
     prog.setUniform("Material.Colour", 0.3f, 0.15f, 0.0f);
@@ -249,6 +249,8 @@ void SceneBasic_Uniform::resize(int w, int h)
     
     projection = glm::perspective(glm::radians(70.0f), (float)w/h, 0.3f, 100.0f);
 }
+
+
 
 void SceneBasic_Uniform::setMatrices()
 {
