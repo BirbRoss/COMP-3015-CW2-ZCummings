@@ -47,7 +47,7 @@ If you wish to run bPhong, swap "shaderToggle" on scenebasic_uniform.cpp line 61
 
 ## Video
 
-[Youtube video](https://youtu.be/doksNtxEWw4)
+[Youtube video](https://youtu.be/yDkLcffi8dI)
 
 ## Credit
 
