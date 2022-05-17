@@ -1,5 +1,5 @@
 # COMP-3015-CW2-ZCummings
-##Versions/Specs
+## Versions/Specs
 
 - Visual Studio 2019 version 16.11.9
 - .NET Framework version 4.8.04161
@@ -47,7 +47,7 @@ If you wish to run bPhong, swap "shaderToggle" on scenebasic_uniform.cpp line 61
 
 ## Video
 
-[Youtube video](https://youtu.be/doksNtxEWw4) (better quality)
+[Youtube video](https://youtu.be/qhLG_THj8fg)
 
 ## Credit
 
